@@ -1,2 +1,2 @@
-# vue
+# Vuejs
 Vue course

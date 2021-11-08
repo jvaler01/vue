@@ -4,6 +4,16 @@ const app = Vue.createApp({
         return {
             message: 'Hola mundo'
         }
+    },
+    methods: {
+        changeMessage(){
+            this.message = "change";
+
+            this.capitalize();
+        },
+        capitalize(){
+            this.message = this.message.toUpperCase();
+        }
     }
 })
 
